@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.17.0](https://github.com/starship/starship/compare/v1.16.0...v1.17.0) (2023-11-07)
+
+
+### Features
+
+* add additional exit status code meanings from libc ([#5412](https://github.com/starship/starship/issues/5412)) ([81c7d0c](https://github.com/starship/starship/commit/81c7d0cc5805dc10018f0589a6671e1b727a0e9c))
+* **fossil_metrics:** add fossil_metrics module ([#4874](https://github.com/starship/starship/issues/4874)) ([e867cda](https://github.com/starship/starship/commit/e867cda1eb90ba452768bd2e0738afc2fd0db613))
+* **hostname:** add detect_env_vars as option ([#5196](https://github.com/starship/starship/issues/5196)) ([43b2d42](https://github.com/starship/starship/commit/43b2d42cd526e34c5f0290e7409fbd6d3a54e908))
+* **kubernetes:** Add styling based on current context ([#4550](https://github.com/starship/starship/issues/4550)) ([6b444e0](https://github.com/starship/starship/commit/6b444e05c688f9b871d0fe4624cd5559eba1f95c))
+* **scanner:** add option not to follow symlinks ([#5325](https://github.com/starship/starship/issues/5325)) ([7b851fc](https://github.com/starship/starship/commit/7b851fc30e109213e911eec38460315872f1ae59))
+
+
+### Bug Fixes
+
+* **bash:** unbound variable error with STARSHIP_PREEXEC_READY ([#5438](https://github.com/starship/starship/issues/5438)) ([8168c21](https://github.com/starship/starship/commit/8168c21293de8118af1e95778b1eee8f26cd6d6a))
+* **git:** prevent `core.fsmonitor` from executing external commands ([#3981](https://github.com/starship/starship/issues/3981)) ([03278e4](https://github.com/starship/starship/commit/03278e4de4f540cbd0e346e9df878c7e6798d757))
+* **install:** do not use curl installed through snap ([#5442](https://github.com/starship/starship/issues/5442)) ([0e73817](https://github.com/starship/starship/commit/0e738175c57d5789350b996b69c5713aac03835e))
+* **pastel-powerline:** remove `$path` from docker-context module format string ([#5534](https://github.com/starship/starship/issues/5534)) ([6abc83d](https://github.com/starship/starship/commit/6abc83decdf176842985b4daa5b09771c6b93415))
+
+
+### Performance Improvements
+
+* Skip unnecessary indirection in starship init zsh ([#5322](https://github.com/starship/starship/issues/5322)) ([5ca8daa](https://github.com/starship/starship/commit/5ca8daacd4ce936f97170f814a780b34bfaa486e))
+
 ## [1.16.0](https://github.com/starship/starship/compare/v1.15.0...v1.16.0) (2023-07-30)
 
 
